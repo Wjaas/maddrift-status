@@ -70,7 +70,7 @@ exports.start = function(SETUP) {
 
   const URL_PLAYERS = new URL('/players.json',SETUP.URL_SERVER).toString();
   const URL_INFO = new URL('/info.json',SETUP.URL_SERVER).toString();
-  const MAX_PLAYERS = 64;
+  const MAX_PLAYERS = 32;
   const TICK_MAX = 1 << 9; // max bits for TICK_N
   const FETCH_TIMEOUT = 900;
   const FETCH_OPS = {
